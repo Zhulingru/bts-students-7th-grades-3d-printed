@@ -6,7 +6,7 @@
       "title": "名牌",
       "description": "個人專屬 3D 列印名牌 — 白 / 灰 / 黑 三色",
       "cover": "assets/images/blank-cover.svg",
-      "count": 28
+      "count": 30
     }
   ],
   "nameplates": [
@@ -31,6 +31,16 @@
       "sourceFile": "專案A班姜宜辰＿名牌 白色.stl"
     },
     {
+      "id": "np-025",
+      "name": "徐佑琪",
+      "class": "A",
+      "color": "黑色",
+      "colorHex": "#2a2a2a",
+      "stl": "models/nameplates/np-025.stl",
+      "preview": "previews/nameplates/np-025.png",
+      "sourceFile": "專案A班徐佑琪_名牌黑色.stl"
+    },
+    {
       "id": "np-009",
       "name": "曹凱棻",
       "class": "A",
@@ -51,13 +61,13 @@
       "sourceFile": "專案A班李羿愷＿名牌灰色.stl"
     },
     {
-      "id": "np-024",
+      "id": "np-026",
       "name": "湯鎧榳",
       "class": "A",
       "color": "黑色",
       "colorHex": "#2a2a2a",
-      "stl": "models/nameplates/np-024.stl",
-      "preview": "previews/nameplates/np-024.png",
+      "stl": "models/nameplates/np-026.stl",
+      "preview": "previews/nameplates/np-026.png",
       "sourceFile": "專案A班湯鎧榳_名牌黑色.stl"
     },
     {
@@ -91,6 +101,16 @@
       "sourceFile": "專案A班翁霈恩_名牌色：白色.stl"
     },
     {
+      "id": "np-016",
+      "name": "蕭霆蕾",
+      "class": "A",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-016.stl",
+      "preview": "previews/nameplates/np-016.png",
+      "sourceFile": "專案A班蕭霆蕾_名牌白色.stl"
+    },
+    {
       "id": "np-011",
       "name": "陳星潔",
       "class": "A",
@@ -101,23 +121,23 @@
       "sourceFile": "專案A班 陳星潔_名牌白色.stl"
     },
     {
-      "id": "np-016",
+      "id": "np-017",
       "name": "陳泳旭",
       "class": "A",
       "color": "白色",
       "colorHex": "#e8e8e8",
-      "stl": "models/nameplates/np-016.stl",
-      "preview": "previews/nameplates/np-016.png",
+      "stl": "models/nameplates/np-017.stl",
+      "preview": "previews/nameplates/np-017.png",
       "sourceFile": "專案A班陳泳旭＿名牌白色.stl"
     },
     {
-      "id": "np-017",
+      "id": "np-018",
       "name": "吳晨暄",
       "class": "B",
       "color": "白色",
       "colorHex": "#e8e8e8",
-      "stl": "models/nameplates/np-017.stl",
-      "preview": "previews/nameplates/np-017.png",
+      "stl": "models/nameplates/np-018.stl",
+      "preview": "previews/nameplates/np-018.png",
       "sourceFile": "專案B班吳晨暄＿名牌白色.stl"
     },
     {
@@ -131,23 +151,23 @@
       "sourceFile": "專案B班 張允薰 名牌灰色.stl"
     },
     {
-      "id": "np-018",
+      "id": "np-019",
       "name": "朱恩圻",
       "class": "B",
       "color": "白色",
       "colorHex": "#e8e8e8",
-      "stl": "models/nameplates/np-018.stl",
-      "preview": "previews/nameplates/np-018.png",
+      "stl": "models/nameplates/np-019.stl",
+      "preview": "previews/nameplates/np-019.png",
       "sourceFile": "專案B班朱恩圻＿名牌白色.stl"
     },
     {
-      "id": "np-027",
+      "id": "np-029",
       "name": "林至誼",
       "class": "B",
       "color": "黑色",
       "colorHex": "#2a2a2a",
-      "stl": "models/nameplates/np-027.stl",
-      "preview": "previews/nameplates/np-027.png",
+      "stl": "models/nameplates/np-029.stl",
+      "preview": "previews/nameplates/np-029.png",
       "sourceFile": "專案Ｂ班 林至誼＿名牌黑色.stl"
     },
     {
@@ -171,23 +191,23 @@
       "sourceFile": "專案B班 蔡忠諺_名牌灰色.stl"
     },
     {
-      "id": "np-028",
+      "id": "np-030",
       "name": "蔡行一",
       "class": "B",
       "color": "黑色",
       "colorHex": "#2a2a2a",
-      "stl": "models/nameplates/np-028.stl",
-      "preview": "previews/nameplates/np-028.png",
+      "stl": "models/nameplates/np-030.stl",
+      "preview": "previews/nameplates/np-030.png",
       "sourceFile": "專案Ｂ班 蔡行一＿名牌黑色.stl"
     },
     {
-      "id": "np-019",
+      "id": "np-020",
       "name": "賴雋曄",
       "class": "B",
       "color": "白色",
       "colorHex": "#e8e8e8",
-      "stl": "models/nameplates/np-019.stl",
-      "preview": "previews/nameplates/np-019.png",
+      "stl": "models/nameplates/np-020.stl",
+      "preview": "previews/nameplates/np-020.png",
       "sourceFile": "專案B班賴雋曄＿名牌白色.stl"
     },
     {
@@ -201,23 +221,23 @@
       "sourceFile": "專案B班高可芩＿名牌灰色.stl"
     },
     {
-      "id": "np-025",
+      "id": "np-027",
       "name": "俞鴻彥",
       "class": "C",
       "color": "黑色",
       "colorHex": "#2a2a2a",
-      "stl": "models/nameplates/np-025.stl",
-      "preview": "previews/nameplates/np-025.png",
+      "stl": "models/nameplates/np-027.stl",
+      "preview": "previews/nameplates/np-027.png",
       "sourceFile": "專案C班俞鴻彥_名牌黑色.stl"
     },
     {
-      "id": "np-020",
+      "id": "np-021",
       "name": "吳祈宣",
       "class": "C",
       "color": "白色",
       "colorHex": "#e8e8e8",
-      "stl": "models/nameplates/np-020.stl",
-      "preview": "previews/nameplates/np-020.png",
+      "stl": "models/nameplates/np-021.stl",
+      "preview": "previews/nameplates/np-021.png",
       "sourceFile": "專案C班 吳祈宣  名牌色：白色.stl"
     },
     {
@@ -231,13 +251,13 @@
       "sourceFile": "專案c班張哲語＿名牌灰色.stl"
     },
     {
-      "id": "np-022",
+      "id": "np-023",
       "name": "李耘瑍",
       "class": "C",
       "color": "白色",
       "colorHex": "#e8e8e8",
-      "stl": "models/nameplates/np-022.stl",
-      "preview": "previews/nameplates/np-022.png",
+      "stl": "models/nameplates/np-023.stl",
+      "preview": "previews/nameplates/np-023.png",
       "sourceFile": "專案C班李耘瑍 名牌色：白色.stl"
     },
     {
@@ -251,13 +271,13 @@
       "sourceFile": "專案Ｃ班林宥鈊＿名牌灰色.stl"
     },
     {
-      "id": "np-023",
+      "id": "np-024",
       "name": "翁翊扉",
       "class": "C",
       "color": "白色",
       "colorHex": "#e8e8e8",
-      "stl": "models/nameplates/np-023.stl",
-      "preview": "previews/nameplates/np-023.png",
+      "stl": "models/nameplates/np-024.stl",
+      "preview": "previews/nameplates/np-024.png",
       "sourceFile": "專案C班翁翊扉＿名牌白色.stl"
     },
     {
@@ -271,23 +291,23 @@
       "sourceFile": "專案C班 賴宸安 名牌色：灰.stl"
     },
     {
-      "id": "np-026",
+      "id": "np-028",
       "name": "陳郁筌",
       "class": "C",
       "color": "黑色",
       "colorHex": "#2a2a2a",
-      "stl": "models/nameplates/np-026.stl",
-      "preview": "previews/nameplates/np-026.png",
+      "stl": "models/nameplates/np-028.stl",
+      "preview": "previews/nameplates/np-028.png",
       "sourceFile": "專案C班陳郁筌＿名牌黑色.stl"
     },
     {
-      "id": "np-021",
+      "id": "np-022",
       "name": "黃詠甯",
       "class": "C",
       "color": "白色",
       "colorHex": "#e8e8e8",
-      "stl": "models/nameplates/np-021.stl",
-      "preview": "previews/nameplates/np-021.png",
+      "stl": "models/nameplates/np-022.stl",
+      "preview": "previews/nameplates/np-022.png",
       "sourceFile": "專案C班 黃詠甯 名牌色：白色.stl"
     }
   ]
