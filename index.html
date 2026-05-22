@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>七年級 3D 列印作品</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="eyebrow">專案展示</p>
+      <h1 id="site-title">七年級 3D 列印作品</h1>
+      <p class="subtitle">點選作品進入學生名牌牆，再點名牌可 3D 旋轉檢視</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="projects-section">
+      <h2 class="section-title">作品集</h2>
+      <div id="projects-grid" class="card-grid"></div>
+    </section>
+  </main>
+
+  <!-- 名牌作品 modal -->
+  <dialog id="gallery-dialog" class="modal">
+    <div class="modal-header">
+      <div>
+        <h2 id="gallery-title">名牌</h2>
+        <p id="gallery-desc" class="modal-desc"></p>
+      </div>
+      <button type="button" class="btn-close" data-close="gallery-dialog" aria-label="關閉">×</button>
+    </div>
+    <div class="modal-toolbar">
+      <label>
+        班級
+        <select id="filter-class">
+          <option value="">全部</option>
+          <option value="A">A 班</option>
+          <option value="B">B 班</option>
+          <option value="C">C 班</option>
+        </select>
+      </label>
+      <label>
+        顏色
+        <select id="filter-color">
+          <option value="">全部</option>
+          <option value="白色">白色</option>
+          <option value="灰色">灰色</option>
+          <option value="黑色">黑色</option>
+        </select>
+      </label>
+      <span id="gallery-count" class="count-badge"></span>
+    </div>
+    <div id="nameplate-grid" class="card-grid modal-grid"></div>
+  </dialog>
+
+  <!-- 單一名牌 + 3D viewer modal -->
+  <dialog id="viewer-dialog" class="modal modal-viewer">
+    <div class="modal-header">
+      <div>
+        <h2 id="viewer-title">名牌</h2>
+        <p id="viewer-meta" class="modal-desc"></p>
+      </div>
+      <button type="button" class="btn-close" data-close="viewer-dialog" aria-label="關閉">×</button>
+    </div>
+    <div class="viewer-layout">
+      <div class="preview-pane">
+        <img id="viewer-preview" alt="名牌平面圖" />
+        <p class="hint">平面預覽</p>
+      </div>
+      <div class="canvas-pane">
+        <div id="canvas-container"></div>
+        <p class="hint">拖曳旋轉 · 滾輪縮放</p>
+      </div>
+    </div>
+    <div class="viewer-actions">
+      <button type="button" id="btn-view-3d" class="btn primary">View in 3D</button>
+      <a id="btn-download-stl" class="btn secondary" download>下載 STL</a>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>七年級 3D 列印課程 · GitHub Pages 展示</p>
+  </footer>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

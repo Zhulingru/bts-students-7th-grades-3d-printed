@@ -1,0 +1,294 @@
+{
+  "title": "七年級 3D 列印作品",
+  "projects": [
+    {
+      "id": "nameplate",
+      "title": "名牌",
+      "description": "個人專屬 3D 列印名牌 — 白 / 灰 / 黑 三色",
+      "cover": "assets/images/blank-cover.svg",
+      "count": 28
+    }
+  ],
+  "nameplates": [
+    {
+      "id": "np-012",
+      "name": "劉恩裴",
+      "class": "A",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-012.stl",
+      "preview": "previews/nameplates/np-012.png",
+      "sourceFile": "專案A班劉恩裴_名牌顏色：白色.stl"
+    },
+    {
+      "id": "np-013",
+      "name": "姜宜辰",
+      "class": "A",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-013.stl",
+      "preview": "previews/nameplates/np-013.png",
+      "sourceFile": "專案A班姜宜辰＿名牌 白色.stl"
+    },
+    {
+      "id": "np-009",
+      "name": "曹凱棻",
+      "class": "A",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-009.stl",
+      "preview": "previews/nameplates/np-009.png",
+      "sourceFile": "專案A班 曹凱棻_名牌白色.stl"
+    },
+    {
+      "id": "np-001",
+      "name": "李羿愷",
+      "class": "A",
+      "color": "灰色",
+      "colorHex": "#8a8a8a",
+      "stl": "models/nameplates/np-001.stl",
+      "preview": "previews/nameplates/np-001.png",
+      "sourceFile": "專案A班李羿愷＿名牌灰色.stl"
+    },
+    {
+      "id": "np-024",
+      "name": "湯鎧榳",
+      "class": "A",
+      "color": "黑色",
+      "colorHex": "#2a2a2a",
+      "stl": "models/nameplates/np-024.stl",
+      "preview": "previews/nameplates/np-024.png",
+      "sourceFile": "專案A班湯鎧榳_名牌黑色.stl"
+    },
+    {
+      "id": "np-010",
+      "name": "王沛容",
+      "class": "A",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-010.stl",
+      "preview": "previews/nameplates/np-010.png",
+      "sourceFile": "專案A班 王沛容＿名牌白色.stl"
+    },
+    {
+      "id": "np-014",
+      "name": "盧應心",
+      "class": "A",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-014.stl",
+      "preview": "previews/nameplates/np-014.png",
+      "sourceFile": "專案A班盧應心_名牌白色.stl"
+    },
+    {
+      "id": "np-015",
+      "name": "翁霈恩",
+      "class": "A",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-015.stl",
+      "preview": "previews/nameplates/np-015.png",
+      "sourceFile": "專案A班翁霈恩_名牌色：白色.stl"
+    },
+    {
+      "id": "np-011",
+      "name": "陳星潔",
+      "class": "A",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-011.stl",
+      "preview": "previews/nameplates/np-011.png",
+      "sourceFile": "專案A班 陳星潔_名牌白色.stl"
+    },
+    {
+      "id": "np-016",
+      "name": "陳泳旭",
+      "class": "A",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-016.stl",
+      "preview": "previews/nameplates/np-016.png",
+      "sourceFile": "專案A班陳泳旭＿名牌白色.stl"
+    },
+    {
+      "id": "np-017",
+      "name": "吳晨暄",
+      "class": "B",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-017.stl",
+      "preview": "previews/nameplates/np-017.png",
+      "sourceFile": "專案B班吳晨暄＿名牌白色.stl"
+    },
+    {
+      "id": "np-002",
+      "name": "張允薰",
+      "class": "B",
+      "color": "灰色",
+      "colorHex": "#8a8a8a",
+      "stl": "models/nameplates/np-002.stl",
+      "preview": "previews/nameplates/np-002.png",
+      "sourceFile": "專案B班 張允薰 名牌灰色.stl"
+    },
+    {
+      "id": "np-018",
+      "name": "朱恩圻",
+      "class": "B",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-018.stl",
+      "preview": "previews/nameplates/np-018.png",
+      "sourceFile": "專案B班朱恩圻＿名牌白色.stl"
+    },
+    {
+      "id": "np-027",
+      "name": "林至誼",
+      "class": "B",
+      "color": "黑色",
+      "colorHex": "#2a2a2a",
+      "stl": "models/nameplates/np-027.stl",
+      "preview": "previews/nameplates/np-027.png",
+      "sourceFile": "專案Ｂ班 林至誼＿名牌黑色.stl"
+    },
+    {
+      "id": "np-004",
+      "name": "程澈",
+      "class": "B",
+      "color": "灰色",
+      "colorHex": "#8a8a8a",
+      "stl": "models/nameplates/np-004.stl",
+      "preview": "previews/nameplates/np-004.png",
+      "sourceFile": "專案B班程澈＿名牌灰色.stl"
+    },
+    {
+      "id": "np-003",
+      "name": "蔡忠諺",
+      "class": "B",
+      "color": "灰色",
+      "colorHex": "#8a8a8a",
+      "stl": "models/nameplates/np-003.stl",
+      "preview": "previews/nameplates/np-003.png",
+      "sourceFile": "專案B班 蔡忠諺_名牌灰色.stl"
+    },
+    {
+      "id": "np-028",
+      "name": "蔡行一",
+      "class": "B",
+      "color": "黑色",
+      "colorHex": "#2a2a2a",
+      "stl": "models/nameplates/np-028.stl",
+      "preview": "previews/nameplates/np-028.png",
+      "sourceFile": "專案Ｂ班 蔡行一＿名牌黑色.stl"
+    },
+    {
+      "id": "np-019",
+      "name": "賴雋曄",
+      "class": "B",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-019.stl",
+      "preview": "previews/nameplates/np-019.png",
+      "sourceFile": "專案B班賴雋曄＿名牌白色.stl"
+    },
+    {
+      "id": "np-005",
+      "name": "高可芩",
+      "class": "B",
+      "color": "灰色",
+      "colorHex": "#8a8a8a",
+      "stl": "models/nameplates/np-005.stl",
+      "preview": "previews/nameplates/np-005.png",
+      "sourceFile": "專案B班高可芩＿名牌灰色.stl"
+    },
+    {
+      "id": "np-025",
+      "name": "俞鴻彥",
+      "class": "C",
+      "color": "黑色",
+      "colorHex": "#2a2a2a",
+      "stl": "models/nameplates/np-025.stl",
+      "preview": "previews/nameplates/np-025.png",
+      "sourceFile": "專案C班俞鴻彥_名牌黑色.stl"
+    },
+    {
+      "id": "np-020",
+      "name": "吳祈宣",
+      "class": "C",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-020.stl",
+      "preview": "previews/nameplates/np-020.png",
+      "sourceFile": "專案C班 吳祈宣  名牌色：白色.stl"
+    },
+    {
+      "id": "np-007",
+      "name": "張哲語",
+      "class": "C",
+      "color": "灰色",
+      "colorHex": "#8a8a8a",
+      "stl": "models/nameplates/np-007.stl",
+      "preview": "previews/nameplates/np-007.png",
+      "sourceFile": "專案c班張哲語＿名牌灰色.stl"
+    },
+    {
+      "id": "np-022",
+      "name": "李耘瑍",
+      "class": "C",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-022.stl",
+      "preview": "previews/nameplates/np-022.png",
+      "sourceFile": "專案C班李耘瑍 名牌色：白色.stl"
+    },
+    {
+      "id": "np-008",
+      "name": "林宥鈊",
+      "class": "C",
+      "color": "灰色",
+      "colorHex": "#8a8a8a",
+      "stl": "models/nameplates/np-008.stl",
+      "preview": "previews/nameplates/np-008.png",
+      "sourceFile": "專案Ｃ班林宥鈊＿名牌灰色.stl"
+    },
+    {
+      "id": "np-023",
+      "name": "翁翊扉",
+      "class": "C",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-023.stl",
+      "preview": "previews/nameplates/np-023.png",
+      "sourceFile": "專案C班翁翊扉＿名牌白色.stl"
+    },
+    {
+      "id": "np-006",
+      "name": "賴宸安",
+      "class": "C",
+      "color": "灰色",
+      "colorHex": "#8a8a8a",
+      "stl": "models/nameplates/np-006.stl",
+      "preview": "previews/nameplates/np-006.png",
+      "sourceFile": "專案C班 賴宸安 名牌色：灰.stl"
+    },
+    {
+      "id": "np-026",
+      "name": "陳郁筌",
+      "class": "C",
+      "color": "黑色",
+      "colorHex": "#2a2a2a",
+      "stl": "models/nameplates/np-026.stl",
+      "preview": "previews/nameplates/np-026.png",
+      "sourceFile": "專案C班陳郁筌＿名牌黑色.stl"
+    },
+    {
+      "id": "np-021",
+      "name": "黃詠甯",
+      "class": "C",
+      "color": "白色",
+      "colorHex": "#e8e8e8",
+      "stl": "models/nameplates/np-021.stl",
+      "preview": "previews/nameplates/np-021.png",
+      "sourceFile": "專案C班 黃詠甯 名牌色：白色.stl"
+    }
+  ]
+}
