@@ -4,21 +4,18 @@ set -e
 cd "$(dirname "$0")"
 
 REPO="https://github.com/Zhulingru/bts-students-7th-grades-3d-printed.git"
+GIT_DIR="${HOME}/.cache/bts-3d-site-git"
 
-rm -rf .git
-git init
-git remote add origin "$REPO"
+git --git-dir="$GIT_DIR" --work-tree="$(pwd)" init 2>/dev/null || true
+git --git-dir="$GIT_DIR" --work-tree="$(pwd)" remote add origin "$REPO" 2>/dev/null \
+  || git --git-dir="$GIT_DIR" --work-tree="$(pwd)" remote set-url origin "$REPO"
 
-git add .
-git commit -m "Add grade 7 3D printing nameplate gallery site" || true
-git branch -M main
-git push -u origin main
+git --git-dir="$GIT_DIR" --work-tree="$(pwd)" add .
+git --git-dir="$GIT_DIR" --work-tree="$(pwd)" commit -m "${1:-Update grade 7 3D nameplate gallery}" || true
+git --git-dir="$GIT_DIR" --work-tree="$(pwd)" branch -M main
+git --git-dir="$GIT_DIR" --work-tree="$(pwd)" push -u origin main
 
 echo ""
 echo "✅ 已推送到 GitHub"
-echo "請到以下網址啟用 Pages："
-echo "https://github.com/Zhulingru/bts-students-7th-grades-3d-printed/settings/pages"
-echo "Source 選：Branch = main，Folder = / (root)"
-echo ""
-echo "啟用後網站網址："
-echo "https://zhulingru.github.io/bts-students-7th-grades-3d-printed/"
+echo "網站：https://zhulingru.github.io/bts-students-7th-grades-3d-printed/"
+echo "若首次部署，請到 Settings → Pages 啟用 main / (root)"
